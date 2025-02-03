@@ -2,11 +2,11 @@ package web.models;
 
 public class Car {
 
-    long id;
+    private long id;
 
-    String model;
+    private String model;
 
-    int series;
+    private int series;
 
     public Car(long id, String model, int series) {
         this.id = id;
